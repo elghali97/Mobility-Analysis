@@ -11,7 +11,7 @@ INPUTS:
 OUTPUT:
     C = {c1,c2,...,ck} Set of clusters
 """
-def ST_DBSCAN(df, spatial_threshold = 1000, temporal_threshold = 120, min_neighbors = 1):
+def ST_DBSCAN(df, spatial_threshold = 200, temporal_threshold = 30, min_neighbors = 1):
     cluster_label = 0
     NOISE = -1
     UNMARKED = 777777
